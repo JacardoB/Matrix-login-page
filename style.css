@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+  background-image: url(https://wallpapercave.com/wp/wp2726662.jpg);
+}
+
+
+/* change background color to black after finished */
+.login-style {
+  background-color: #000000;
+  text-align: center;
+  width: 450px;
+  height: 350px;
+  padding: 15px;
+  margin: 250px 550px;
+  margin-left: 500px;
+  border-radius: 20%;
+  border: 1px solid green;
+  
+}
+
+                          /* site title */
+.site-title {
+  text-transform: uppercase;
+  font-size: 50px;
+  font-style: italic;
+  color: rgb(109, 219, 0);
+  margin-bottom: 7px;
+  min-height: 35px;
+  min-width:auto;
+  background-color: black;
+  padding: 12px;
+  border-radius: 50%;
+  margin-top: 0px;
+}
+
+::placeholder {
+    color: rgb(109, 219, 0);
+}
+
+.username-info {
+  min-height: 35px;
+  min-width:auto;
+  color: rgb(109, 219, 0);
+  font-style: italic;
+  background-color: black;
+  padding: 12px;
+  border: #000000;
+  border-radius: 50%;
+  margin-bottom: 8px;
+  
+}
+
+.password-info {
+  min-height: 35px;
+  min-width:auto;
+  color: rgb(109, 219, 0);
+  font-style: italic;
+  background-color: black;
+  padding: 12px;
+  border: #000000;
+  border-radius: 50%;
+  margin-bottom: 8px;
+}
+
+
+                /* Continue BUTTON */
+
+.login-button {
+  background-color: #000000;
+  color: rgb(109, 219, 0);
+  font-style: italic;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: %;
+  border: none;
+
+}
+
+
+
+
+
+              /* password */
+.forgot-password {
+  min-height: 38px;
+  width: 145px;
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  background-color: blue;
+  padding: 12px;
+  border-radius: 50%;
+  margin-bottom: 8px;
+  margin: auto;
+  margin-top: 20px;
+  margin-right: 160px;
+}
+
+                /* create account */
+
+.create-account {
+  margin-bottom: 10px;
+  margin-left: 166px;
+  min-height: 38px;
+  width: 145px;
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  background-color: rgb(255, 0, 0);
+  padding: 12px;
+  border-radius: 50%;
+
+}
+
+
+a {
+  text-decoration: none;
+  display: inline-block; /*  Important for scaling to work correctly */
+
+  transition: transform 1.0s ease-in-out; /* Smooth transition for the scaling effect */
+}
+
+/*  Scale the link on hover */
+a:hover {
+  transform: scale(1.2); /*  Increase the size by 20% on hover */
+}
+
+
+
+
+
+
+/* 
+.share a {
+  background: red;
+  border: 1px solid red;
+  border-radius: 3px;
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.share a:hover {
+  background: white;
+  border: 10px solid #00ff95;
+  color: rgb(0, 0, 0);
+}
+ */
